@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url(fontes/Spider-Man.otf);
+
+
+header {
+    position: relative;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+#conteudo-header {
+    position: absolute;
+    display:inline;
+    padding: 50px 200px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    padding-left: 250px;
+}
+
+#links {
+    display: inline;
+    text-decoration: none;
+    padding-bottom: 20px ;
+}
+#links > a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#links > a:hover {
+    color:chocolate;
+    text-decoration: underline;
+}
+
+#sobre{
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    padding-left: 300px;
+    padding-top: 300px;
+    margin-bottom: 1px;
+}
+#spider {
+    color: black;
+
+    font-family: 'Spider-Man';
+    font-size: 60px;
+
+    padding-left: 300px;
+    padding-top: 0px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+#imagem {
+    position: absolute;
+    background-color: black;
+    max-height: 300px;
+    border-top: 10px solid orange;
+}
+#imagem > img {
+    height: 450px;
+    width: 1600px;
+}
+
+.texto {
+    position: relative;
+    margin-left: 400px;
+    background-color: white;
+    max-width:  900px;
+    transform: translate(-30%, -5%);
+}
+
+.texto > p {
+    text-align: justify;
+    padding: 20px 25px;
+    line-height: 1cm;
+}
+
+#mais {
+    display: none;
+}
+
+#quadrinhos {
+    float: right;
+    display: flex;
+}
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+
+}
+
+li:hover {
+    background-image: linear-gradient(to right, red, transparent);
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+#caixa {
+    background-color: rgb(46, 53, 53);
+    width: 1000px;
+    margin-left: 200px;
+    padding: 100px 100px;
+
+}
+#video1 {
+    margin-left: 100px;
+    margin-right: 50px;
+    display: inline;
+    width: 400px;
+    height: 300px;
+}
+
+#video2 {
+    display: inline;
+    width: 400px;
+    height: 300px;
+}
